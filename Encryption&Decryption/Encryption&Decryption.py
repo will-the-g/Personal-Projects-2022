@@ -101,6 +101,3 @@ def decode_morsecode(s):
             output.append(ReverseMorseCode[chunkychunks[chunkychunkychunks]])
     return ''.join(output[char] for char in range(len(output)))
 
-
-encryption = {'a':'g','b':'p','c':'m','d':'b','e':'q','f':'z','g':'u','h':'a','i':'r','j':'c','k':'h','l':'w','m':'o','n':'x','o':'f','p':'k','q':'v','r':'d','s':'j','t':'l','u':'y','v':'e','w':'s','x':'t','y':'i','z':'n','1':'7','2':'4','3':'5','4':'0','5':'1','6':'9','7':'8','8':'2','9':'3','0':'6'}
-print(encryption.keys())
